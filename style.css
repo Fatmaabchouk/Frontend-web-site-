@@ -1,0 +1,78 @@
+body {
+  background-color: rgb(220, 215, 210);
+  color: var(--gray-web);
+  font-size: 16px;
+  font-weight: var(--fw-500);
+  line-height: 1.6;
+}
+
+.header {
+  position: relative;
+  padding-bottom: 0;
+}
+
+.alert {
+  background-color: rgb(220, 215, 210);
+  padding: 0;
+}
+
+.alert a {
+  margin-right: 1rem;
+  color: #333;
+  text-decoration: none;
+}
+
+.header-image {
+  height: 10rem; /* Ajustez la hauteur au besoin */
+  background-image: url('./logo1.png');
+  background-size: cover;
+  flex-grow: initial;
+}
+
+.main-content {
+  background-color: red;
+  padding: 7.3rem 0rem;
+  text-align: center;
+  margin-left: 2rem;
+  margin-right: 0.1rem;
+}
+
+.form-container {
+  max-width: 40rem;
+  margin: 0 auto;
+}
+
+.form-label {
+  display: flex;
+  margin-bottom: 0.8rem;
+  background-color: #cec0c0e3;
+  height: 3.8rem;
+  border-radius: 2.2rem;
+  box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.1);
+}
+
+.label-left,
+.label-right {
+  flex-basis: 25%;
+  margin-left: 2rem;
+}
+
+.label-center {
+  background-color: #d24120;
+  flex-grow: 1;
+  color: yellow;
+  margin-top: 1.3rem;
+}
+
+input,
+button {
+  padding: 1rem;
+  margin-top: 0.5rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.label-left1 {
+  margin-left: 2.7rem;
+  margin-top: 1.8rem;
+}
